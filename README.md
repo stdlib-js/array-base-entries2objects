@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import entries2objects from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-entries2objects@deno/mod.js';
+import entries2objects from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-entries2objects@v0.1.1-deno/mod.js';
 ```
 
 #### entries2objects( arr, fields )
@@ -83,7 +83,7 @@ The function supports the following parameters:
 
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
-import entries2objects from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-entries2objects@deno/mod.js';
+import entries2objects from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-entries2objects@v0.1.1-deno/mod.js';
 
 var x = discreteUniform( 10, -100, 100 );
 var fields = [ 'x', 'y' ];
